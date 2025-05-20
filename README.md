@@ -1,72 +1,61 @@
-Growth and Decline Reporting Analysis Dashboard
-This Power BI project provides a comprehensive analysis of performance trends through growth and decline insights. It includes a clean data model, robust ETL pipeline, and multiple interactive report pages to help decision-makers identify key metrics across time, product categories, and business units.
+# 📊 Growth and Decline Reporting Analysis Dashboard
 
-📌 Project Highlights
-Built with Power BI using SQL, DAX, and Power Query.
+This Power BI project offers a comprehensive analysis of business performance trends through growth and decline insights. It includes a clean data model, robust ETL pipeline, and multiple interactive report pages to help decision-makers identify key metrics across time, products, and regions.
 
-Custom data model optimized for performance and scalability.
+---
 
-Covers growth, decline, and summary insights.
+## 🔧 Project Highlights
 
-Visual storytelling through clean, dynamic dashboards.
+- Built with **Power BI** using **SQL**, **DAX**, and **Power Query**
+- Custom star schema data model optimized for performance
+- Covers growth, decline, and summary insights
+- Visual storytelling through interactive dashboards
 
-📂 Report  Overview
-📉 1. DBC Decliners
-Highlights products or regions with decreasing performance.
+---
 
-Shows month-over-month or year-over-year decline.
+## 📄 Report Pages Overview
 
-Includes filters for business unit, region, and date.
+### 1️⃣ DBC Decliners
 
-📷 Screenshot:
-📎 Add image here
-![DBC Decliners](images/dbc_decliners.png)
+Highlights products or regions with decreasing performance over selected time periods. Includes filters to drill down by product, category, and region.
 
-📈 2. DBC Growth
-Focuses on entities showing significant improvement.
+![DBC Decliners](DBC%20Dec.png)
 
-Uses KPI visuals and conditional formatting to spotlight growth.
+---
 
-Breakdowns available by product, sales channel, and region.
+### 2️⃣ DBC Growth
 
-📷 Screenshot:
-📎 Add image here
-![DBC Growth](images/dbc_growth.png)
+Focuses on entities showing upward performance trends. Uses KPIs and charts to emphasize improvement across business areas.
 
-📊 3. DBC Summary
-Consolidated overview of growth vs. decline.
+![DBC Growth](DBC%20Grow.png)
 
-Provides total impact, percentage change, and net trend.
+---
 
-Ideal for executives and quick reporting.
+### 3️⃣ DBC Summary
 
-📷 Screenshot:
-📎 Add image here
-![DBC Summary](images/dbc_summary.png)
+Summarizes overall performance by comparing total growth vs. decline. Useful for top-level overviews and executive reports.
 
-🧩 4. DBC Model
-Star schema structure for efficient querying.
+![DBC Summary](DBC%20Summary.png)
 
-Includes fact tables for transactions and dimension tables (e.g., time, product, region).
+---
 
-Designed to support all analytical needs without redundancy.
+### 4️⃣ DBC Model
 
-📷 Screenshot:
-📎 Add image here
-![DBC Model](images/dbc_model.png)
+Depicts the underlying data model (fact and dimension tables). Ensures smooth data relationships and efficient querying.
 
-⚙️ Tech Stack
-Power BI Desktop
+![DBC Model](DBC%20Model.png)
 
-SQL Server (for database queries)
+---
 
-DAX (for calculated measures)
+## 🧰 Tech Stack
 
-Power Query (M Language) (for ETL & data transformation)
+- **Power BI Desktop**
+- **SQL Server / Database**
+- **DAX** (Data Analysis Expressions)
+- **Power Query (M language)**
 
-💡 Key Features
-Fully interactive with filters and slicers.
+---
 
-Supports drill-through for detailed insights.
+## 📂 Files in Repository
 
-Custom visuals and bookmarks for enhanced storytelling.
+
