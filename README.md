@@ -7,7 +7,7 @@ This Power BI project offers a comprehensive analysis of business performance tr
 ## 🔧 Project Highlights
 
 - Built with **Power BI** using **SQL**, **DAX**, and **Power Query**
-- Custom star schema data model optimized for performance
+- Custom schema data model optimized for performance
 - Covers growth, decline, and summary insights
 - Visual storytelling through interactive dashboards
 
