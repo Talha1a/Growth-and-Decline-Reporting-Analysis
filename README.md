@@ -41,7 +41,7 @@ Summarizes overall performance by comparing total growth vs. decline. Useful for
 
 ### 4️⃣ DBC Model
 
-Depicts the underlying data model (fact and dimension tables). Ensures smooth data relationships and efficient querying.
+Depicts the underlying data model (sample). Ensures smooth data relationships and efficient querying.
 
 ![DBC Model](DBC%20Model.png)
 
@@ -56,6 +56,5 @@ Depicts the underlying data model (fact and dimension tables). Ensures smooth da
 
 ---
 
-## 📂 Files in Repository
 
 
